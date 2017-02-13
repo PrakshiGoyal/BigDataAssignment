@@ -1,0 +1,40 @@
+1) Sources of Big Data:
+
+Big Data sources are large repositories of data.
+Social Media: Social Media is the most trending source of data that helps in finding out patterns and taking decisions based on the     choice of the people.
+Activity-generate data: This category includes web site tracking information, application logs, and sensor data – such as check-ins and other location tracking – among other machine-generated content.
+Health : NHS Health and Social Care Information Centre provides health data sets from the UK National Health Service.
+Telecommunications: When it comes to Big Data strategy, the telecom industry has an advantage over others due to the sheer breadth and depth of data it collects in the course of normal business. For example, an operator serving 8 million prepaid mobile subscribers generates around 30 million Call Data Records (CDRs) daily, equaling 11 billion records annually. If the same operator also provides postpaid and fixed lines services, then there is even more volume and variety of data at the ready.
+Climate:National Climatic data centre collects huge collection of environmental, meteorological and climate data sets.The world’s largest archive of weather data.
+
+
+
+2)Three V's of Big Data:
+
+The three Vs i.e, Volume, velocity and variety of data are the defining characteristics of big data.
+Volume: Volume referres to huge amounts of data.World population is 7 billion out of which 6 billion people use mobile phones.It is estimated that 2.5 quintillion bytes of data are generated every single day.40 Zettabytes of data will be created by 2020, an increase of 300 times from 2005.Most companies in the U.S have atleast 100 Terabytes of data stored.This refers to volume of data.
+Velocity:Initially, companies analyzed data using a batch process. One took a part of data, submitted a job to the server and waited for delivery of the result. That scheme works when the incoming data rate is slower than the batch processing rate and when the result is useful despite the delay.The data is now streaming into the server in real time, in a continuous fashion and the result is only useful if the delay is very short.The New York Stock Exchange captures 1TB during each trading session. By 2016, it was projected there will be 18.9 billion network connections.
+Variety:As of 2011,the global size of data in healthcare was estimated to be 150 Exabytes.30 billion pieces of content are shared on facebook every month.4 billion+ hours of videos are watched on YouTube every month. All this is variety of data.
+
+
+
+3)Horizontal Scaling and Vertical Scaling
+
+Horizontal Scaling:Horizontal scaling divides the data set and distributes the data over multiple servers, or shards. So, you can create 10 instance each with 1TB database. Each shard is an independent database, and collectively, the shards make up a single logical database.
+Major Benefit: All of your data is in smaller chunks so program can process them very fast with parallel job distribution among all instance.
+Major Problem: The problem is about managing those instances and the complex distributed architecture.
+
+Vertical Scaling:Vertical scaling can essentially resize your server with no change to your code. It is the ability to increase the capacity of existing hardware or software by adding resources. Vertical scaling is limited by the fact that you can only get as big as the size of the server.
+
+
+
+4)Need and working of Hadoop:
+
+Need of hadoop:The complexity of modern analytics needs is going beyond the power of present systems. With its distributed processing, Hadoop can handle large volumes of structured and unstructured data more efficiently than the traditional enterprise data warehouse. Because Hadoop is open source and can run on commodity hardware, the initial cost savings are dramatic and continue to grow as your organizational data grows. Additionally, Hadoop has a robust Apache community behind it that continues to contribute to its advancement.
+
+At its core, Hadoop has two main systems:
+
+Hadoop Distributed File System (HDFS):  the storage system for Hadoop spread out over multiple machines as a means to reduce cost and increase reliability.
+
+MapReduce engine: the algorithm that filters, sorts and then uses the database input in some way.
+With the Hadoop Distributed File system the data is written once on the server and subsequently read and re-used many times thereafter. When contrasted with the repeated read/write actions of most other file systems it explains part of the speed with which Hadoop operates. Hadoop MapReduce is an implementation of the MapReduce algorithm developed and maintained by the Apache Hadoop project. The general idea of the MapReduce algorithm is to break down the data into smaller manageable pieces, process the data in parallel on your distributed cluster, and subsequently combine it into the desired result or output.
